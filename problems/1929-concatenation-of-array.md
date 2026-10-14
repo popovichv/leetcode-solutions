@@ -41,6 +41,9 @@ class Solution:
 
 ### Concatenation Method
 
+Time complexity: `O(n)`  
+Space complexity: `O(n)`
+
 ```python
 class Solution:
     def getConcatenation(self, nums: list[int]) -> list[int]:
