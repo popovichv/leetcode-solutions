@@ -1,10 +1,11 @@
 # 1. Two Sum
 
-## Explanation
+**Difficulty:** `Easy`  
+**Topics:** `Array` `Hash Table`
 
 Given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to `target`. Each input has exactly one solution. You can return the answer in any order.
 
----
+## Explanation
 
 Brute force checks every pair in `O(n^2)`. Instead, we use a hashmap
 (`checked_nums`) that maps each number we have seen to its index.

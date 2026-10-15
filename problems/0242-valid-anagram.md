@@ -1,10 +1,11 @@
 # 242. Valid Anagram
 
-## Explanation
+**Difficulty:** `Easy`  
+**Topics:** `String` `Hash Table`
 
 Given two strings `s` and `t`, return `true` if `t` is an anagram of `s`, and `false` otherwise.
 
----
+## Explanation
 
 If the length of the strings differ, they cannot be anagrams, so we return `false`.
 We count how many times each character occurs in both strings using two hashmaps. If the hashmaps are equal,

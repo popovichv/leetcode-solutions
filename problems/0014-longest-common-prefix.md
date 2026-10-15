@@ -1,11 +1,12 @@
 # 14. Longest Common Prefix
 
-## Explanation
+**Difficulty:** `Easy`  
+**Topics:** `String`
 
 Write a function to find the longest common prefix string amongst an array of strings.
 If there is no common prefix, return an empty string `""`.
 
----
+## Explanation
 
 Firstly, we find the shortest word in the array since the longest common prefix can only be
 as long as the shortest word, and scanning by its length also guarantees that `s[i]` is a

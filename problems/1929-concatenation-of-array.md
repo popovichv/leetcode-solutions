@@ -1,11 +1,12 @@
 # 1929. Concatenation of Array
 
-## Explanation
+**Difficulty:** `Easy`  
+**Topics:** `Array`
 
 Given an integer array `nums` of length `n`, you want to create an array `ans` of length `2n`
 where `ans[i] == nums[i]` and `ans[i + n] == nums[i]`. Specifically, `ans` is the concatenation of two `nums` arrays.
 
----
+## Explanation
 
 ### Loop Method
 

@@ -1,10 +1,11 @@
 # 485. Max Consecutive Ones
 
-## Explanation
+**Difficulty:** `Easy`  
+**Topics:** `Array`
 
 Given a binary array `nums`, return the maximum number of consecutive `1`'s in the array.
 
----
+## Explanation
 
 Iterate through the array while tracking `current`, the length of the current run of `1`s. On a `1`, increment `current` and update `max_consecutive` if `current` is larger. On a `0`, reset `current` to `0`.
 
