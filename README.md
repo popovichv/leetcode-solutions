@@ -27,7 +27,7 @@ code it describes.
 
 The Solved table below is generated from these files using `update_readme.py` script.
 
-## Solved (9)
+## Solved (10)
 
 | #    | Problem                                                                                                                       | Difficulty | Topics                     | Time     | Space  |
 | ---- | ----------------------------------------------------------------------------------------------------------------------------- | ---------- | -------------------------- | -------- | ------ |
@@ -38,5 +38,6 @@ The Solved table below is generated from these files using `update_readme.py` sc
 | 217  | [Contains Duplicate](problems/0217-contains-duplicate.md)                                                                     | Easy       | Array, Hash Table, Sorting | `O(n)`   | `O(n)` |
 | 242  | [Valid Anagram](problems/0242-valid-anagram.md)                                                                               | Easy       | String, Hash Table         | `O(n)`   | `O(n)` |
 | 485  | [Max Consecutive Ones](problems/0485-max-consecutive-ones.md)                                                                 | Easy       | Array                      | `O(n)`   | `O(1)` |
+| 682  | [Baseball Game](problems/0682-baseball-game.md)                                                                               | Easy       | Array, Stack               | `O(n)`   | `O(n)` |
 | 1299 | [Replace Elements with Greatest Element on Right Side](problems/1299-replace-elements-with-greatest-element-on-right-side.md) | Easy       | Array                      | `O(n)`   | `O(1)` |
 | 1929 | [Concatenation of Array](problems/1929-concatenation-of-array.md)                                                             | Easy       | Array                      | `O(n)`   | `O(n)` |
