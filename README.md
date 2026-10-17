@@ -27,7 +27,7 @@ code it describes.
 
 The Solved table below is generated from these files using `update_readme.py` script.
 
-## Solved (12)
+## Solved (13)
 
 | #    | Problem                                                                                                                       | Difficulty | Topics                     | Time     | Space  |
 | ---- | ----------------------------------------------------------------------------------------------------------------------------- | ---------- | -------------------------- | -------- | ------ |
@@ -37,6 +37,7 @@ The Solved table below is generated from these files using `update_readme.py` sc
 | 27   | [Remove Duplicates](problems/0027-remove-element.md)                                                                          | Easy       | Array, Two Pointers        | `O(n)`   | `O(1)` |
 | 155  | [Min Stack](problems/0155-min-stack.md)                                                                                       | Medium     | Stack                      | `O(1)`   | `O(n)` |
 | 169  | [Majority Element](problems/0169-majority-element.md)                                                                         | Easy       | Array, Hash Table          | `O(n)`   | `O(n)` |
+| 206  | [Reverse Linked List](problems/0206-reverse-linked-list.md)                                                                   | Easy       | Linked List                | `O(n)`   | `O(1)` |
 | 217  | [Contains Duplicate](problems/0217-contains-duplicate.md)                                                                     | Easy       | Array, Hash Table, Sorting | `O(n)`   | `O(n)` |
 | 242  | [Valid Anagram](problems/0242-valid-anagram.md)                                                                               | Easy       | String, Hash Table         | `O(n)`   | `O(n)` |
 | 485  | [Max Consecutive Ones](problems/0485-max-consecutive-ones.md)                                                                 | Easy       | Array                      | `O(n)`   | `O(1)` |
