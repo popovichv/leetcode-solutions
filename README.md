@@ -27,13 +27,14 @@ code it describes.
 
 The Solved table below is generated from these files using `update_readme.py` script.
 
-## Solved (13)
+## Solved (14)
 
 | #    | Problem                                                                                                                       | Difficulty | Topics                     | Time     | Space  |
 | ---- | ----------------------------------------------------------------------------------------------------------------------------- | ---------- | -------------------------- | -------- | ------ |
 | 1    | [Two Sum](problems/0001-two-sum.md)                                                                                           | Easy       | Array, Hash Table          | `O(n)`   | `O(n)` |
 | 14   | [Longest Common Prefix](problems/0014-longest-common-prefix.md)                                                               | Easy       | String                     | `O(s*m)` | `O(m)` |
 | 20   | [Valid Parenthesis](problems/0020-valid-parenthesis.md)                                                                       | Easy       | String, Stack              | `O(n)`   | `O(n)` |
+| 21   | [Merge Two Sorted Lists](problems/0021-merge-two-sorted-lists.md)                                                             | Easy       | Linked List                | `O(n+m)` | `O(1)` |
 | 27   | [Remove Duplicates](problems/0027-remove-element.md)                                                                          | Easy       | Array, Two Pointers        | `O(n)`   | `O(1)` |
 | 155  | [Min Stack](problems/0155-min-stack.md)                                                                                       | Medium     | Stack                      | `O(1)`   | `O(n)` |
 | 169  | [Majority Element](problems/0169-majority-element.md)                                                                         | Easy       | Array, Hash Table          | `O(n)`   | `O(n)` |
