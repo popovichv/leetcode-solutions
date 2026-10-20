@@ -27,7 +27,7 @@ code it describes.
 
 The Solved table below is generated from these files using `update_readme.py` script.
 
-## Solved (15)
+## Solved (16)
 
 | #    | Problem                                                                                                                       | Difficulty | Topics                     | Time     | Space  |
 | ---- | ----------------------------------------------------------------------------------------------------------------------------- | ---------- | -------------------------- | -------- | ------ |
@@ -45,4 +45,5 @@ The Solved table below is generated from these files using `update_readme.py` sc
 | 682  | [Baseball Game](problems/0682-baseball-game.md)                                                                               | Easy       | Array, Stack               | `O(n)`   | `O(n)` |
 | 707  | [Design Linked List](problems/0707-design-linked-list.md)                                                                     | Medium     | Linked List, Design        | `O(1)`   | `O(n)` |
 | 1299 | [Replace Elements with Greatest Element on Right Side](problems/1299-replace-elements-with-greatest-element-on-right-side.md) | Easy       | Array                      | `O(n)`   | `O(1)` |
+| 1700 | [Number of Students Unable to Eat Lunch](problems/1700-number-of-students-unable-to-eat-lunch.md)                             | Easy       | Array, Stack, Queue        | `O(n)`   | `O(1)` |
 | 1929 | [Concatenation of Array](problems/1929-concatenation-of-array.md)                                                             | Easy       | Array                      | `O(n)`   | `O(n)` |
