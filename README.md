@@ -27,7 +27,7 @@ code it describes.
 
 The Solved table below is generated from these files using `update_readme.py` script.
 
-## Solved (20)
+## Solved (21)
 
 | #    | Problem                                                                                                                       | Difficulty | Topics                             | Time          | Space    |
 | ---- | ----------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------------------------------- | ------------- | -------- |
@@ -37,6 +37,7 @@ The Solved table below is generated from these files using `update_readme.py` sc
 | 21   | [Merge Two Sorted Lists](problems/0021-merge-two-sorted-lists.md)                                                             | Easy       | Linked List                        | `O(n+m)`      | `O(1)`   |
 | 27   | [Remove Duplicates](problems/0027-remove-element.md)                                                                          | Easy       | Array, Two Pointers                | `O(n)`        | `O(1)`   |
 | 49   | [Group Anagrams](problems/0049-group-anagrams.md)                                                                             | Medium     | String, Hash Table, Array, Sorting | `O(n*k*logk)` | `O(n*k)` |
+| 125  | [Valid Palindrome](problems/0125-valid-palindrome.md)                                                                         | Easy       | Two Pointers, String               | `O(n)`        | `O(n)`   |
 | 155  | [Min Stack](problems/0155-min-stack.md)                                                                                       | Medium     | Stack, Design                      | `O(1)`        | `O(n)`   |
 | 169  | [Majority Element](problems/0169-majority-element.md)                                                                         | Easy       | Array, Hash Table                  | `O(n)`        | `O(n)`   |
 | 206  | [Reverse Linked List](problems/0206-reverse-linked-list.md)                                                                   | Easy       | Linked List, Recursion             | `O(n)`        | `O(1)`   |
