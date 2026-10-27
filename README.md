@@ -27,7 +27,7 @@ code it describes.
 
 The Solved table below is generated from these files using `update_readme.py` script.
 
-## Solved (23)
+## Solved (24)
 
 | #    | Problem                                                                                                                       | Difficulty | Topics                             | Time          | Space    |
 | ---- | ----------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------------------------------- | ------------- | -------- |
@@ -35,6 +35,7 @@ The Solved table below is generated from these files using `update_readme.py` sc
 | 14   | [Longest Common Prefix](problems/0014-longest-common-prefix.md)                                                               | Easy       | String                             | `O(s*m)`      | `O(m)`   |
 | 20   | [Valid Parenthesis](problems/0020-valid-parenthesis.md)                                                                       | Easy       | String, Stack                      | `O(n)`        | `O(n)`   |
 | 21   | [Merge Two Sorted Lists](problems/0021-merge-two-sorted-lists.md)                                                             | Easy       | Linked List                        | `O(n+m)`      | `O(1)`   |
+| 23   | [Merge K Sorted Lists](problems/0023-merge-k-sorted-lists.md)                                                                 | Hard       | Linked List, Heap                  | `O(n*logk)`   | `O(k)`   |
 | 27   | [Remove Duplicates](problems/0027-remove-element.md)                                                                          | Easy       | Array, Two Pointers                | `O(n)`        | `O(1)`   |
 | 49   | [Group Anagrams](problems/0049-group-anagrams.md)                                                                             | Medium     | String, Hash Table, Array, Sorting | `O(n*k*logk)` | `O(n*k)` |
 | 70   | [Climbing Stairs](problems/0070-climbing-stairs.md)                                                                           | Easy       | Dynamic Programming, Memoization   | `O(n)`        | `O(n)`   |
