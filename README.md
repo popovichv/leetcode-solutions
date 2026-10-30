@@ -27,7 +27,7 @@ code it describes.
 
 The Solved table below is generated from these files using `update_readme.py` script.
 
-## Solved (27)
+## Solved (28)
 
 | #    | Problem                                                                                                                       | Difficulty | Topics                                              | Time          | Space     |
 | ---- | ----------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------------------------------------------- | ------------- | --------- |
@@ -52,6 +52,7 @@ The Solved table below is generated from these files using `update_readme.py` sc
 | 344  | [Reverse String](problems/0344-reverse-string.md)                                                                             | Easy       | Two Pointers, String                                | `O(n)`        | `O(1)`    |
 | 485  | [Max Consecutive Ones](problems/0485-max-consecutive-ones.md)                                                                 | Easy       | Array                                               | `O(n)`        | `O(1)`    |
 | 682  | [Baseball Game](problems/0682-baseball-game.md)                                                                               | Easy       | Array, Stack                                        | `O(n)`        | `O(n)`    |
+| 704  | [Binary Search](problems/0704-binary-search.md)                                                                               | Easy       | Array, Binary Search                                | `O(logn)`     | `O(1)`    |
 | 707  | [Design Linked List](problems/0707-design-linked-list.md)                                                                     | Medium     | Linked List, Design                                 | `O(1)`        | `O(n)`    |
 | 973  | [k Closest Points to Origin](problems/0973-k-closest-points-to-origin.md)                                                     | Medium     | Array, Heap, Quickselect                            | `O(n)`        | `O(n)`    |
 | 1299 | [Replace Elements with Greatest Element on Right Side](problems/1299-replace-elements-with-greatest-element-on-right-side.md) | Easy       | Array                                               | `O(n)`        | `O(1)`    |
