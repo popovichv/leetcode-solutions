@@ -27,7 +27,7 @@ code it describes.
 
 The Solved table below is generated from these files using `update_readme.py` script.
 
-## Solved (29)
+## Solved (30)
 
 | #    | Problem                                                                                                                       | Difficulty | Topics                                              | Time          | Space     |
 | ---- | ----------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------------------------------------------- | ------------- | --------- |
@@ -51,6 +51,7 @@ The Solved table below is generated from these files using `update_readme.py` sc
 | 225  | [Implement Stack Using Queues](problems/0225-implement-stack-using-queues.md)                                                 | Easy       | Stack, Queue, Design                                | `O(1)`        | `O(n)`    |
 | 242  | [Valid Anagram](problems/0242-valid-anagram.md)                                                                               | Easy       | String, Hash Table                                  | `O(n)`        | `O(n)`    |
 | 344  | [Reverse String](problems/0344-reverse-string.md)                                                                             | Easy       | Two Pointers, String                                | `O(n)`        | `O(1)`    |
+| 374  | [Guess Number Higher or Lower](problems/0374-guess-number-higher-or-lower.md)                                                 | Easy       | Binary Search                                       | `O(logn)`     | `O(1)`    |
 | 485  | [Max Consecutive Ones](problems/0485-max-consecutive-ones.md)                                                                 | Easy       | Array                                               | `O(n)`        | `O(1)`    |
 | 682  | [Baseball Game](problems/0682-baseball-game.md)                                                                               | Easy       | Array, Stack                                        | `O(n)`        | `O(n)`    |
 | 704  | [Binary Search](problems/0704-binary-search.md)                                                                               | Easy       | Array, Binary Search                                | `O(logn)`     | `O(1)`    |
