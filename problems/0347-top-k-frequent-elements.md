@@ -1,7 +1,7 @@
 # 347. Top K Frequent Elements
 
 **Difficulty:** `Medium`  
-**Topics:** `Array` `Hash Map` `Sorting` `Quickselect`
+**Topics:** `Array` `Hash Map` `Sorting` `Quickselect` `Bucket Sort`
 
 Given an integer array `nums` and an integer `k`, return the `k` most frequent elements. You may return the answer in any order.
 
@@ -14,6 +14,12 @@ Using quickselect, we partition the list around a random pivot frequency so that
 After each partition, the pivot is in its final sorted position. If it lands at index `k - 1`, the first `k` pairs are
 the most frequent, so we return them. Otherwise, we recurse only into the side that contains index `k - 1`.
 
+### Bucket Sort Method
+
+We use `Counter()` to build a frequency map, where each key is a number and its value is how many times it occurred in the array.
+Then we create a bucket for each possible frequency, using the frequency as the index, and place each key into its bucket.
+Finally, we walk the buckets from the highest frequency down and add keys to the result until we have `k` elements.
+
 ## Code
 
 ### Quick Select Method
@@ -24,7 +30,6 @@ Space complexity: `O(n)`
 ```python
 # Python 3
 class Solution:
-    class Solution:
     def topKFrequent(self, nums: list[int], k: int) -> list[int]:
         map = defaultdict(int)
         for x in nums:
@@ -51,4 +56,27 @@ class Solution:
             return self.quickSelect(arr, w + 1, end, target)
         else:
             return self.quickSelect(arr, start, w - 1, target)
+```
+
+### Bucket Sort Method
+
+Time complexity: `O(n)`
+Space complexity: `O(n)`
+
+```python
+# Python 3
+class Solution:
+    def topKFrequent(self, nums: list[int], k: int) -> list[int]:
+        frequencyMap = Counter(nums)
+
+        buckets = [[] for i in range(len(nums) + 1)]
+        for key, frequency in frequencyMap.items():
+            buckets[frequency].append(key)
+
+        result = []
+        for frequency in range(len(buckets) - 1, 0, -1):
+            for key in buckets[frequency]:
+                result.append(key)
+                if len(result) == k:
+                    return result
 ```
