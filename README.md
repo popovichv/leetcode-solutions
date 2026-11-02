@@ -27,7 +27,7 @@ code it describes.
 
 The Solved table below is generated from these files using `update_readme.py` script.
 
-## Solved (32)
+## Solved (33)
 
 | #    | Problem                                                                                                                       | Difficulty | Topics                                              | Time          | Space     |
 | ---- | ----------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------------------------------------------- | ------------- | --------- |
@@ -52,6 +52,7 @@ The Solved table below is generated from these files using `update_readme.py` sc
 | 232  | [Implement Queue Using Stacks](problems/0232-implement-queue-using-stacks.md)                                                 | Easy       | Stack, Queue, Design                                | `O(1)`        | `O(n)`    |
 | 242  | [Valid Anagram](problems/0242-valid-anagram.md)                                                                               | Easy       | String, Hash Table                                  | `O(n)`        | `O(n)`    |
 | 344  | [Reverse String](problems/0344-reverse-string.md)                                                                             | Easy       | Two Pointers, String                                | `O(n)`        | `O(1)`    |
+| 347  | [Top K Frequent Elements](problems/0347-top-k-frequent-elements.md)                                                           | Medium     | Array, Hash Map, Sorting, Quickselect               | `O(n)`        | `O(n)`    |
 | 374  | [Guess Number Higher or Lower](problems/0374-guess-number-higher-or-lower.md)                                                 | Easy       | Binary Search                                       | `O(logn)`     | `O(1)`    |
 | 485  | [Max Consecutive Ones](problems/0485-max-consecutive-ones.md)                                                                 | Easy       | Array                                               | `O(n)`        | `O(1)`    |
 | 682  | [Baseball Game](problems/0682-baseball-game.md)                                                                               | Easy       | Array, Stack                                        | `O(n)`        | `O(n)`    |
