@@ -27,7 +27,7 @@ code it describes.
 
 The Solved table below is generated from these files using `update_readme.py` script.
 
-## Solved (31)
+## Solved (32)
 
 | #    | Problem                                                                                                                       | Difficulty | Topics                                              | Time          | Space     |
 | ---- | ----------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------------------------------------------- | ------------- | --------- |
@@ -49,6 +49,7 @@ The Solved table below is generated from these files using `update_readme.py` sc
 | 215  | [Kth Largest Element in an Array](problems/0215-kth-largest-element-in-an-array.md)                                           | Medium     | Array, Quickselect, Dutch National Flag Algorithm   | `O(n)`        | `O(logn)` |
 | 217  | [Contains Duplicate](problems/0217-contains-duplicate.md)                                                                     | Easy       | Array, Hash Table, Sorting                          | `O(n)`        | `O(n)`    |
 | 225  | [Implement Stack Using Queues](problems/0225-implement-stack-using-queues.md)                                                 | Easy       | Stack, Queue, Design                                | `O(1)`        | `O(n)`    |
+| 232  | [Implement Queue Using Stacks](problems/0232-implement-queue-using-stacks.md)                                                 | Easy       | Stack, Queue, Design                                | `O(1)`        | `O(n)`    |
 | 242  | [Valid Anagram](problems/0242-valid-anagram.md)                                                                               | Easy       | String, Hash Table                                  | `O(n)`        | `O(n)`    |
 | 344  | [Reverse String](problems/0344-reverse-string.md)                                                                             | Easy       | Two Pointers, String                                | `O(n)`        | `O(1)`    |
 | 374  | [Guess Number Higher or Lower](problems/0374-guess-number-higher-or-lower.md)                                                 | Easy       | Binary Search                                       | `O(logn)`     | `O(1)`    |
