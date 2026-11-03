@@ -27,7 +27,7 @@ code it describes.
 
 The Solved table below is generated from these files using `update_readme.py` script.
 
-## Solved (33)
+## Solved (34)
 
 | #    | Problem                                                                                                                       | Difficulty | Topics                                              | Time          | Space     |
 | ---- | ----------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------------------------------------------- | ------------- | --------- |
@@ -56,6 +56,7 @@ The Solved table below is generated from these files using `update_readme.py` sc
 | 374  | [Guess Number Higher or Lower](problems/0374-guess-number-higher-or-lower.md)                                                 | Easy       | Binary Search                                       | `O(logn)`     | `O(1)`    |
 | 485  | [Max Consecutive Ones](problems/0485-max-consecutive-ones.md)                                                                 | Easy       | Array                                               | `O(n)`        | `O(1)`    |
 | 682  | [Baseball Game](problems/0682-baseball-game.md)                                                                               | Easy       | Array, Stack                                        | `O(n)`        | `O(n)`    |
+| 701  | [Insert Into a Binary Search Tree](problems/0701-insert-into-a-binary-search-tree.md)                                         | Medium     | Tree, Binary Search Tree, Binary Tree               | `O(h)`        | `O(h)`    |
 | 704  | [Binary Search](problems/0704-binary-search.md)                                                                               | Easy       | Array, Binary Search                                | `O(logn)`     | `O(1)`    |
 | 707  | [Design Linked List](problems/0707-design-linked-list.md)                                                                     | Medium     | Linked List, Design                                 | `O(1)`        | `O(n)`    |
 | 875  | [Koko Eating Bananas](problems/0875-koko-eating-bananas.md)                                                                   | Medium     | Array, Binary Search                                | `O(n*logm)`   | `O(1)`    |
