@@ -27,7 +27,7 @@ code it describes.
 
 The Solved table below is generated from these files using `update_readme.py` script.
 
-## Solved (40)
+## Solved (41)
 
 | #    | Problem                                                                                                                       | Difficulty | Topics                                              | Time          | Space     |
 | ---- | ----------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------------------------------------------- | ------------- | --------- |
@@ -46,6 +46,7 @@ The Solved table below is generated from these files using `update_readme.py` sc
 | 94   | [Binary Tree Inorder Traversal](problems/0094-binary-tree-inorder-traversal.md)                                               | Easy       | Tree, Binary Tree, DFS                              | `O(n)`        | `O(n)`    |
 | 110  | [Balanced Binary Tree](problems/0110-balanced-binary-tree.md)                                                                 | Easy       | Tree, Binary Tree, DFS                              | `O(n)`        | `O(h)`    |
 | 125  | [Valid Palindrome](problems/0125-valid-palindrome.md)                                                                         | Easy       | Two Pointers, String                                | `O(n)`        | `O(1)`    |
+| 141  | [Linked List Cycle](problems/0141-linked-list-cycle.md)                                                                       | Easy       | Linked List, Floyd's Cycle Finding Algorithm        | `O(n)`        | `O(1)`    |
 | 155  | [Min Stack](problems/0155-min-stack.md)                                                                                       | Medium     | Stack, Design                                       | `O(1)`        | `O(n)`    |
 | 169  | [Majority Element](problems/0169-majority-element.md)                                                                         | Easy       | Array, Hash Table                                   | `O(n)`        | `O(n)`    |
 | 206  | [Reverse Linked List](problems/0206-reverse-linked-list.md)                                                                   | Easy       | Linked List, Recursion                              | `O(n)`        | `O(1)`    |
