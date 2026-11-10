@@ -27,7 +27,7 @@ code it describes.
 
 The Solved table below is generated from these files using `update_readme.py` script.
 
-## Solved (41)
+## Solved (42)
 
 | #    | Problem                                                                                                                       | Difficulty | Topics                                              | Time          | Space     |
 | ---- | ----------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------------------------------------------- | ------------- | --------- |
@@ -38,6 +38,7 @@ The Solved table below is generated from these files using `update_readme.py` sc
 | 23   | [Merge K Sorted Lists](problems/0023-merge-k-sorted-lists.md)                                                                 | Hard       | Linked List, Heap                                   | `O(n*logk)`   | `O(k)`    |
 | 27   | [Remove Duplicates](problems/0027-remove-element.md)                                                                          | Easy       | Array, Two Pointers                                 | `O(n)`        | `O(1)`    |
 | 35   | [Search Insert Position](problems/0035-search-insert-position.md)                                                             | Easy       | Array, Binary Search                                | `O(logn)`     | `O(1)`    |
+| 41   | [First Missing Positive](problems/0041-first-missing-positive.md)                                                             | Hard       | Array, Hash Table                                   | `O(n)`        | `O(1)`    |
 | 49   | [Group Anagrams](problems/0049-group-anagrams.md)                                                                             | Medium     | String, Hash Table, Array, Sorting                  | `O(n*k*logk)` | `O(n*k)`  |
 | 70   | [Climbing Stairs](problems/0070-climbing-stairs.md)                                                                           | Easy       | Dynamic Programming, Memoization                    | `O(n)`        | `O(n)`    |
 | 74   | [Search a 2D Matrix](problems/0074-search-a-2d-matrix.md)                                                                     | Medium     | Array, Binary Search, Matrix                        | `O(log(m*n))` | `O(1)`    |
