@@ -27,7 +27,7 @@ code it describes.
 
 The Solved table below is generated from these files using `update_readme.py` script.
 
-## Solved (44)
+## Solved (45)
 
 | #    | Problem                                                                                                                       | Difficulty | Topics                                              | Time          | Space      |
 | ---- | ----------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------------------------------------------- | ------------- | ---------- |
@@ -36,6 +36,7 @@ The Solved table below is generated from these files using `update_readme.py` sc
 | 20   | [Valid Parenthesis](problems/0020-valid-parenthesis.md)                                                                       | Easy       | String, Stack                                       | `O(n)`        | `O(n)`     |
 | 21   | [Merge Two Sorted Lists](problems/0021-merge-two-sorted-lists.md)                                                             | Easy       | Linked List                                         | `O(n+m)`      | `O(1)`     |
 | 23   | [Merge K Sorted Lists](problems/0023-merge-k-sorted-lists.md)                                                                 | Hard       | Linked List, Heap                                   | `O(n*logk)`   | `O(k)`     |
+| 26   | [Remove Duplicates from Sorted Array](problems/0026-remove-duplicates-from-sorted-array.md)                                   | Easy       | Array, Two Pointers                                 | `O(n)`        | `O(1)`     |
 | 27   | [Remove Duplicates](problems/0027-remove-element.md)                                                                          | Easy       | Array, Two Pointers                                 | `O(n)`        | `O(1)`     |
 | 35   | [Search Insert Position](problems/0035-search-insert-position.md)                                                             | Easy       | Array, Binary Search                                | `O(logn)`     | `O(1)`     |
 | 41   | [First Missing Positive](problems/0041-first-missing-positive.md)                                                             | Hard       | Array, Hash Table                                   | `O(n)`        | `O(1)`     |
