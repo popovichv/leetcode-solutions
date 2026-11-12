@@ -27,7 +27,7 @@ code it describes.
 
 The Solved table below is generated from these files using `update_readme.py` script.
 
-## Solved (43)
+## Solved (44)
 
 | #    | Problem                                                                                                                       | Difficulty | Topics                                              | Time          | Space      |
 | ---- | ----------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------------------------------------------- | ------------- | ---------- |
@@ -62,6 +62,7 @@ The Solved table below is generated from these files using `update_readme.py` sc
 | 374  | [Guess Number Higher or Lower](problems/0374-guess-number-higher-or-lower.md)                                                 | Easy       | Binary Search                                       | `O(logn)`     | `O(1)`     |
 | 450  | [Delete Node in a Binary Search Tree](problems/0450-delete-node-in-a-binary-search-tree.md)                                   | Medium     | Tree, Binary Search Tree, Binary Tree               | `O(h)`        | `O(h)`     |
 | 485  | [Max Consecutive Ones](problems/0485-max-consecutive-ones.md)                                                                 | Easy       | Array                                               | `O(n)`        | `O(1)`     |
+| 680  | [Valid Palindrome](problems/0680-valid-palindrome-ll.md)                                                                      | Easy       | Array, Two Pointers, Greedy                         | `O(n)`        | `O(1)`     |
 | 682  | [Baseball Game](problems/0682-baseball-game.md)                                                                               | Easy       | Array, Stack                                        | `O(n)`        | `O(n)`     |
 | 701  | [Insert Into a Binary Search Tree](problems/0701-insert-into-a-binary-search-tree.md)                                         | Medium     | Tree, Binary Search Tree, Binary Tree               | `O(h)`        | `O(h)`     |
 | 704  | [Binary Search](problems/0704-binary-search.md)                                                                               | Easy       | Array, Binary Search                                | `O(logn)`     | `O(1)`     |
