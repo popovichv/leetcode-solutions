@@ -27,7 +27,7 @@ code it describes.
 
 The Solved table below is generated from these files using `update_readme.py` script.
 
-## Solved (48)
+## Solved (49)
 
 | #    | Problem                                                                                                                                 | Difficulty | Topics                                              | Time          | Space      |
 | ---- | --------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------------------------------------------- | ------------- | ---------- |
@@ -54,6 +54,7 @@ The Solved table below is generated from these files using `update_readme.py` sc
 | 141  | [Linked List Cycle](problems/0141-linked-list-cycle.md)                                                                                 | Easy       | Linked List, Floyd's Cycle Finding Algorithm        | `O(n)`        | `O(1)`     |
 | 155  | [Min Stack](problems/0155-min-stack.md)                                                                                                 | Medium     | Stack, Design                                       | `O(1)`        | `O(n)`     |
 | 169  | [Majority Element](problems/0169-majority-element.md)                                                                                   | Easy       | Array, Hash Table                                   | `O(n)`        | `O(n)`     |
+| 199  | [Binary Tree Right Side View](problems/0199-binary-tree-right-side-view.md)                                                             | Medium     | Tree, Binary Tree, BFS, DFS                         | `O(n)`        | `O(n)`     |
 | 206  | [Reverse Linked List](problems/0206-reverse-linked-list.md)                                                                             | Easy       | Linked List, Recursion                              | `O(n)`        | `O(1)`     |
 | 215  | [Kth Largest Element in an Array](problems/0215-kth-largest-element-in-an-array.md)                                                     | Medium     | Array, Quickselect, Dutch National Flag Algorithm   | `O(n)`        | `O(logn)`  |
 | 217  | [Contains Duplicate](problems/0217-contains-duplicate.md)                                                                               | Easy       | Array, Hash Table, Sorting                          | `O(n)`        | `O(n)`     |
