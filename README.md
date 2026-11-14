@@ -27,7 +27,7 @@ code it describes.
 
 The Solved table below is generated from these files using `update_readme.py` script.
 
-## Solved (47)
+## Solved (48)
 
 | #    | Problem                                                                                                                                 | Difficulty | Topics                                              | Time          | Space      |
 | ---- | --------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------------------------------------------- | ------------- | ---------- |
@@ -47,6 +47,7 @@ The Solved table below is generated from these files using `update_readme.py` sc
 | 75   | [Sort Colors](problems/0075-sort-colors.md)                                                                                             | Medium     | Array, Counting Sort, Dutch National Flag Algorithm | `O(n)`        | `O(1)`     |
 | 88   | [Merge Sorted Arrays](problems/0088-merge-sorted-arrays.md)                                                                             | Easy       | Array, Two Pointers, Sorting                        | `O(m + n)`    | `O(1)`     |
 | 94   | [Binary Tree Inorder Traversal](problems/0094-binary-tree-inorder-traversal.md)                                                         | Easy       | Tree, Binary Tree, DFS                              | `O(n)`        | `O(n)`     |
+| 102  | [Binary Tree Level Order Traversal](problems/0102-binary-tree-level-order-traversal.md)                                                 | Medium     | Tree, Binary Tree, BFS                              | `O(n)`        | `O(n)`     |
 | 105  | [Construct Binary Tree from Preorder and Inorder Traversal](problems/0105-construct-binary-tree-from-preorder-and-inorder-traversal.md) | Medium     | Array, Tree, Binary Tree                            | `O(n)`        | `O(1)`     |
 | 110  | [Balanced Binary Tree](problems/0110-balanced-binary-tree.md)                                                                           | Easy       | Tree, Binary Tree, DFS                              | `O(n)`        | `O(h)`     |
 | 125  | [Valid Palindrome](problems/0125-valid-palindrome.md)                                                                                   | Easy       | Two Pointers, String                                | `O(n)`        | `O(1)`     |
