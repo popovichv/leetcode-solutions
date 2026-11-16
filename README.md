@@ -27,7 +27,7 @@ code it describes.
 
 The Solved table below is generated from these files using `update_readme.py` script.
 
-## Solved (49)
+## Solved (50)
 
 | #    | Problem                                                                                                                                 | Difficulty | Topics                                              | Time          | Space      |
 | ---- | --------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------------------------------------------- | ------------- | ---------- |
@@ -52,6 +52,7 @@ The Solved table below is generated from these files using `update_readme.py` sc
 | 110  | [Balanced Binary Tree](problems/0110-balanced-binary-tree.md)                                                                           | Easy       | Tree, Binary Tree, DFS                              | `O(n)`        | `O(h)`     |
 | 125  | [Valid Palindrome](problems/0125-valid-palindrome.md)                                                                                   | Easy       | Two Pointers, String                                | `O(n)`        | `O(1)`     |
 | 141  | [Linked List Cycle](problems/0141-linked-list-cycle.md)                                                                                 | Easy       | Linked List, Floyd's Cycle Finding Algorithm        | `O(n)`        | `O(1)`     |
+| 144  | [Binary Tree Preorder Traversal](problems/0144-binary-tree-preorder-traversal.md)                                                       | Easy       | Tree, Binary Tree, DFS                              | `O(n)`        | `O(n)`     |
 | 155  | [Min Stack](problems/0155-min-stack.md)                                                                                                 | Medium     | Stack, Design                                       | `O(1)`        | `O(n)`     |
 | 169  | [Majority Element](problems/0169-majority-element.md)                                                                                   | Easy       | Array, Hash Table                                   | `O(n)`        | `O(n)`     |
 | 199  | [Binary Tree Right Side View](problems/0199-binary-tree-right-side-view.md)                                                             | Medium     | Tree, Binary Tree, BFS, DFS                         | `O(n)`        | `O(n)`     |
