@@ -27,7 +27,7 @@ code it describes.
 
 The Solved table below is generated from these files using `update_readme.py` script.
 
-## Solved (52)
+## Solved (53)
 
 | #    | Problem                                                                                                                                 | Difficulty | Topics                                              | Time          | Space      |
 | ---- | --------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------------------------------------------- | ------------- | ---------- |
@@ -61,6 +61,7 @@ The Solved table below is generated from these files using `update_readme.py` sc
 | 215  | [Kth Largest Element in an Array](problems/0215-kth-largest-element-in-an-array.md)                                                     | Medium     | Array, Quickselect, Dutch National Flag Algorithm   | `O(n)`        | `O(logn)`  |
 | 217  | [Contains Duplicate](problems/0217-contains-duplicate.md)                                                                               | Easy       | Array, Hash Table, Sorting                          | `O(n)`        | `O(n)`     |
 | 225  | [Implement Stack Using Queues](problems/0225-implement-stack-using-queues.md)                                                           | Easy       | Stack, Queue, Design                                | `O(1)`        | `O(n)`     |
+| 226  | [Invert Binary Tree](problems/0226-invert-binary-tree.md)                                                                               | Easy       | Tree, Binary Tree, DFS, BFS                         | `O(n)`        | `O(h)`     |
 | 230  | [Kth Smallest Element in a BST](problems/0230-kth-smallest-element-in-a-bst.md)                                                         | Medium     | Tree, Binary Tree, DFS                              | `O(h + k)`    | `O(h)`     |
 | 232  | [Implement Queue Using Stacks](problems/0232-implement-queue-using-stacks.md)                                                           | Easy       | Stack, Queue, Design                                | `O(1)`        | `O(n)`     |
 | 242  | [Valid Anagram](problems/0242-valid-anagram.md)                                                                                         | Easy       | String, Hash Table                                  | `O(n)`        | `O(n)`     |
