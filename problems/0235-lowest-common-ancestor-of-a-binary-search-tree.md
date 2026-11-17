@@ -16,6 +16,16 @@ According to the definition of LCA on Wikipedia: “The lowest common ancestor i
 
 If one node is an ancestor of the other, its path is shorter. `zip` stops at the end of the shorter path without finding a mismatch, so the LCA is that node itself, which matches the definition.
 
+### Split Point Method
+
+In a BST, every node in the left subtree is smaller than the current node, and every node in the right subtree is larger. We can use this to find the LCA in a single walk from the root, without storing any paths.
+
+At each node, there are three cases:
+
+1. Both `p` and `q` are smaller than the current node. Both are in the left subtree, so the LCA is there too. Move left.
+2. Both `p` and `q` are larger than the current node. Both are in the right subtree, so the LCA is there too. Move right.
+3. Otherwise, `p` and `q` split here. The current node is the deepest node that still has both as descendants, so it is the LCA.
+
 ## Code
 
 ### Path Comparison Method
@@ -50,4 +60,22 @@ class Solution:
                 break
 
         return lca
+```
+
+### Split Point Method
+
+Time complexity: `O(h)`  
+Space complexity: `O(1)`
+
+```python
+# Python 3
+class Solution:
+    def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
+        while root:
+            if p.val < root.val and q.val < root.val:
+                root = root.left
+            elif p.val > root.val and q.val > root.val:
+                root = root.right
+            else:
+                return root
 ```
