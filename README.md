@@ -27,7 +27,7 @@ code it describes.
 
 The Solved table below is generated from these files using `update_readme.py` script.
 
-## Solved (54)
+## Solved (55)
 
 | #    | Problem                                                                                                                                 | Difficulty | Topics                                              | Time          | Space      |
 | ---- | --------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------------------------------------------- | ------------- | ---------- |
@@ -65,6 +65,7 @@ The Solved table below is generated from these files using `update_readme.py` sc
 | 226  | [Invert Binary Tree](problems/0226-invert-binary-tree.md)                                                                               | Easy       | Tree, Binary Tree, DFS, BFS                         | `O(n)`        | `O(h)`     |
 | 230  | [Kth Smallest Element in a BST](problems/0230-kth-smallest-element-in-a-bst.md)                                                         | Medium     | Tree, Binary Tree, DFS                              | `O(h + k)`    | `O(h)`     |
 | 232  | [Implement Queue Using Stacks](problems/0232-implement-queue-using-stacks.md)                                                           | Easy       | Stack, Queue, Design                                | `O(1)`        | `O(n)`     |
+| 235  | [Lowest Common Ancestor of a Binary Search Tree](problems/0235-lowest-common-ancestor-of-a-binary-search-tree.md)                       | Medium     | Tree, Binary Tree, DFS, Lowest Common Ancestor      | `O(h)`        | `O(h)`     |
 | 242  | [Valid Anagram](problems/0242-valid-anagram.md)                                                                                         | Easy       | String, Hash Table                                  | `O(n)`        | `O(n)`     |
 | 344  | [Reverse String](problems/0344-reverse-string.md)                                                                                       | Easy       | Two Pointers, String                                | `O(n)`        | `O(1)`     |
 | 347  | [Top K Frequent Elements](problems/0347-top-k-frequent-elements.md)                                                                     | Medium     | Array, Hash Map, Sorting, Quickselect, Bucket Sort  | `O(n)`        | `O(n)`     |
