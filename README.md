@@ -27,7 +27,7 @@ code it describes.
 
 The Solved table below is generated from these files using `update_readme.py` script.
 
-## Solved (57)
+## Solved (58)
 
 | #    | Problem                                                                                                                                 | Difficulty | Topics                                              | Time          | Space      |
 | ---- | --------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------------------------------------------- | ------------- | ---------- |
@@ -51,6 +51,7 @@ The Solved table below is generated from these files using `update_readme.py` sc
 | 104  | [Maximum Depth of Binary Tree](problems/0104-maximum-depth-of-binary-tree.md)                                                           | Easy       | Tree, Binary Tree, DFS, BFS                         | `O(n)`        | `O(h)`     |
 | 105  | [Construct Binary Tree from Preorder and Inorder Traversal](problems/0105-construct-binary-tree-from-preorder-and-inorder-traversal.md) | Medium     | Array, Tree, Binary Tree                            | `O(n)`        | `O(1)`     |
 | 110  | [Balanced Binary Tree](problems/0110-balanced-binary-tree.md)                                                                           | Easy       | Tree, Binary Tree, DFS                              | `O(n)`        | `O(h)`     |
+| 112  | [Path Sum](problems/0112-path-sum.md)                                                                                                   | Easy       | Tree, Binary Tree, DFS                              | `O(n)`        | `O(h)`     |
 | 125  | [Valid Palindrome](problems/0125-valid-palindrome.md)                                                                                   | Easy       | Two Pointers, String                                | `O(n)`        | `O(1)`     |
 | 141  | [Linked List Cycle](problems/0141-linked-list-cycle.md)                                                                                 | Easy       | Linked List, Floyd's Cycle Finding Algorithm        | `O(n)`        | `O(1)`     |
 | 144  | [Binary Tree Preorder Traversal](problems/0144-binary-tree-preorder-traversal.md)                                                       | Easy       | Tree, Binary Tree, DFS                              | `O(n)`        | `O(n)`     |
