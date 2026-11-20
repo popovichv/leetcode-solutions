@@ -27,7 +27,7 @@ code it describes.
 
 The Solved table below is generated from these files using `update_readme.py` script.
 
-## Solved (58)
+## Solved (59)
 
 | #    | Problem                                                                                                                                 | Difficulty | Topics                                              | Time          | Space      |
 | ---- | --------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------------------------------------------- | ------------- | ---------- |
@@ -45,6 +45,7 @@ The Solved table below is generated from these files using `update_readme.py` sc
 | 70   | [Climbing Stairs](problems/0070-climbing-stairs.md)                                                                                     | Easy       | Dynamic Programming, Memoization                    | `O(n)`        | `O(n)`     |
 | 74   | [Search a 2D Matrix](problems/0074-search-a-2d-matrix.md)                                                                               | Medium     | Array, Binary Search, Matrix                        | `O(log(m*n))` | `O(1)`     |
 | 75   | [Sort Colors](problems/0075-sort-colors.md)                                                                                             | Medium     | Array, Counting Sort, Dutch National Flag Algorithm | `O(n)`        | `O(1)`     |
+| 78   | [Subsets](problems/0078-subsets.md)                                                                                                     | Medium     | Array, Backtracking                                 | `O(n*2^n)`    | `O(n)`     |
 | 88   | [Merge Sorted Arrays](problems/0088-merge-sorted-arrays.md)                                                                             | Easy       | Array, Two Pointers, Sorting                        | `O(m + n)`    | `O(1)`     |
 | 94   | [Binary Tree Inorder Traversal](problems/0094-binary-tree-inorder-traversal.md)                                                         | Easy       | Tree, Binary Tree, DFS                              | `O(n)`        | `O(n)`     |
 | 102  | [Binary Tree Level Order Traversal](problems/0102-binary-tree-level-order-traversal.md)                                                 | Medium     | Tree, Binary Tree, BFS                              | `O(n)`        | `O(n)`     |
