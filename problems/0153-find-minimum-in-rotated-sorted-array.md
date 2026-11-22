@@ -1,6 +1,6 @@
 # 153. Find Minimum in Rotated Sorted Array
 
-**Difficulty:** `Meduim`  
+**Difficulty:** `Medium`  
 **Topics:** `Array` `Binary Search`
 
 Given the sorted rotated array `nums` of unique elements, return the minimum element of this array.
