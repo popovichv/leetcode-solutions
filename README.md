@@ -27,7 +27,7 @@ code it describes.
 
 The Solved table below is generated from these files using `update_readme.py` script.
 
-## Solved (61)
+## Solved (62)
 
 | #    | Problem                                                                                                                                 | Difficulty | Topics                                              | Time               | Space        |
 | ---- | --------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------------------------------------------- | ------------------ | ------------ |
@@ -87,6 +87,7 @@ The Solved table below is generated from these files using `update_readme.py` sc
 | 875  | [Koko Eating Bananas](problems/0875-koko-eating-bananas.md)                                                                             | Medium     | Array, Binary Search                                | `O(n*logm)`        | `O(1)`       |
 | 912  | [Sort an Array](problems/0912-sort-an-array.md)                                                                                         | Medium     | Array, Sorting, Merge Sort                          | `O(n*logn)`        | `O(n)`       |
 | 973  | [k Closest Points to Origin](problems/0973-k-closest-points-to-origin.md)                                                               | Medium     | Array, Heap, Quickselect                            | `O(n)`             | `O(n)`       |
+| 1046 | [Last Stone Weight](problems/1046-last-stone-weight.md)                                                                                 | Easy       | Array, Heap                                         | `O(n*logn)`        | `O(1)`       |
 | 1299 | [Replace Elements with Greatest Element on Right Side](problems/1299-replace-elements-with-greatest-element-on-right-side.md)           | Easy       | Array                                               | `O(n)`             | `O(1)`       |
 | 1472 | [Design Browser History](problems/1472-design-browser-history.md)                                                                       | Medium     | Linked List, Design                                 | `O(1)`             | `O(n)`       |
 | 1700 | [Number of Students Unable to Eat Lunch](problems/1700-number-of-students-unable-to-eat-lunch.md)                                       | Easy       | Array, Stack, Queue                                 | `O(n)`             | `O(1)`       |
