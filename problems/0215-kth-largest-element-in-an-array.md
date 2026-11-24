@@ -9,6 +9,21 @@ Note that it is the `k`th largest element in the sorted order, not the `k`th dis
 
 ## Explanation
 
+### Heap Method
+
+We keep a min-heap of size `k` that holds the `k` largest elements seen so far. The root `heap[0]` is the smallest
+of them, so it is the current `k`th largest.
+
+For each `n` in `nums`:
+
+- If the heap has fewer than `k` elements, push `n`.
+- If `n > heap[0]`, it belongs among the `k` largest, so replace the root with `n`.
+- Otherwise, skip `n`. It is smaller than all `k` kept elements and cannot be the answer.
+
+After the loop, `heap[0]` is the `k`th largest element.
+
+### Quickselect Method
+
 We use quickselect, which is based on quicksort, but after each partition we recurse into only the one part that
 contains `target`. The pivot is chosen randomly so that sorted inputs don't push into the O(n^2) worst case.
 
@@ -29,6 +44,28 @@ After partitioning, every element in `[low, high]` equals the pivot. Then:
 - Otherwise, `target` is inside the pivot group, so the pivot is the answer.
 
 ## Code
+
+### Heap Method
+
+Time complexity: `O(n*logk)`  
+Space complexity: `O(k)`
+
+```python
+# Python 3
+class Solution:
+    def findKthLargest(self, nums: list[int], k: int) -> int:
+        heap = []
+
+        for n in nums:
+            if len(heap) < k:
+                heappush(heap, n)
+            elif n > heap[0]:
+                heapreplace(heap, n)
+
+        return heap[0]
+```
+
+### Quickselect Method
 
 Time complexity: `O(n)` - `O(n^2)`  
 Space complexity: `O(logn)`
