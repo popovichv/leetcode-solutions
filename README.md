@@ -27,7 +27,7 @@ code it describes.
 
 The Solved table below is generated from these files using `update_readme.py` script.
 
-## Solved (62)
+## Solved (63)
 
 | #    | Problem                                                                                                                                 | Difficulty | Topics                                              | Time               | Space        |
 | ---- | --------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------------------------------------------- | ------------------ | ------------ |
@@ -58,6 +58,7 @@ The Solved table below is generated from these files using `update_readme.py` sc
 | 141  | [Linked List Cycle](problems/0141-linked-list-cycle.md)                                                                                 | Easy       | Linked List, Floyd's Cycle Finding Algorithm        | `O(n)`             | `O(1)`       |
 | 144  | [Binary Tree Preorder Traversal](problems/0144-binary-tree-preorder-traversal.md)                                                       | Easy       | Tree, Binary Tree, DFS                              | `O(n)`             | `O(n)`       |
 | 145  | [Binary Tree Postorder Traversal](problems/0145-binary-tree-postorder-traversal.md)                                                     | Easy       | Tree, Binary Tree, DFS                              | `O(n)`             | `O(n)`       |
+| 146  | [LRU Cache](problems/0146-lru-cache.md)                                                                                                 | Medium     | Hash Table, Doubly-Linked List, Design              | `O(1)`             | `O(n)`       |
 | 153  | [Find Minimum in Rotated Sorted Array](problems/0153-find-minimum-in-rotated-sorted-array.md)                                           | Medium     | Array, Binary Search                                | `O(logn)`          | `O(1)`       |
 | 155  | [Min Stack](problems/0155-min-stack.md)                                                                                                 | Medium     | Stack, Design                                       | `O(1)`             | `O(n)`       |
 | 169  | [Majority Element](problems/0169-majority-element.md)                                                                                   | Easy       | Array, Hash Table                                   | `O(n)`             | `O(n)`       |
