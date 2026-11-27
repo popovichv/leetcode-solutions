@@ -27,7 +27,7 @@ code it describes.
 
 The Solved table below is generated from these files using `update_readme.py` script.
 
-## Solved (65)
+## Solved (66)
 
 | #    | Problem                                                                                                                                 | Difficulty | Topics                                              | Time               | Space        |
 | ---- | --------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------------------------------------------- | ------------------ | ------------ |
@@ -87,6 +87,7 @@ The Solved table below is generated from these files using `update_readme.py` sc
 | 705  | [Design HashSet](problems/0705-design-hashset.md)                                                                                       | Easy       | Array, HashSet, Linked List, Design                 | `O(1)`             | `O(n)`       |
 | 706  | [Design HashMap](problems/0706-design-hashmap.md)                                                                                       | Medium     | Array, HashMap, Linked List, Design                 | `O(1)`             | `O(n)`       |
 | 707  | [Design Linked List](problems/0707-design-linked-list.md)                                                                               | Medium     | Linked List, Design                                 | `O(1)`             | `O(n)`       |
+| 735  | [Asteroid Collision](problems/0735-asteroid-collision.md)                                                                               | Easy       | Array, Stack, Simulation                            | `O(n)`             | `O(n)`       |
 | 875  | [Koko Eating Bananas](problems/0875-koko-eating-bananas.md)                                                                             | Medium     | Array, Binary Search                                | `O(n*logm)`        | `O(1)`       |
 | 912  | [Sort an Array](problems/0912-sort-an-array.md)                                                                                         | Medium     | Array, Sorting, Merge Sort                          | `O(n*logn)`        | `O(n)`       |
 | 973  | [k Closest Points to Origin](problems/0973-k-closest-points-to-origin.md)                                                               | Medium     | Array, Heap, Quickselect                            | `O(n)`             | `O(n)`       |
