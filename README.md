@@ -27,7 +27,7 @@ code it describes.
 
 The Solved table below is generated from these files using `update_readme.py` script.
 
-## Solved (66)
+## Solved (67)
 
 | #    | Problem                                                                                                                                 | Difficulty | Topics                                              | Time               | Space        |
 | ---- | --------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------------------------------------------- | ------------------ | ------------ |
@@ -59,6 +59,7 @@ The Solved table below is generated from these files using `update_readme.py` sc
 | 144  | [Binary Tree Preorder Traversal](problems/0144-binary-tree-preorder-traversal.md)                                                       | Easy       | Tree, Binary Tree, DFS                              | `O(n)`             | `O(n)`       |
 | 145  | [Binary Tree Postorder Traversal](problems/0145-binary-tree-postorder-traversal.md)                                                     | Easy       | Tree, Binary Tree, DFS                              | `O(n)`             | `O(n)`       |
 | 146  | [LRU Cache](problems/0146-lru-cache.md)                                                                                                 | Medium     | Hash Table, Doubly-Linked List, Design              | `O(1)`             | `O(n)`       |
+| 150  | [Evaluate Reverse Polish Notation](problems/0150-evaluate-reverse-polish-notation.md)                                                   | Medium     | Array, Math, Stack                                  | `O(n)`             | `O(n)`       |
 | 153  | [Find Minimum in Rotated Sorted Array](problems/0153-find-minimum-in-rotated-sorted-array.md)                                           | Medium     | Array, Binary Search                                | `O(logn)`          | `O(1)`       |
 | 155  | [Min Stack](problems/0155-min-stack.md)                                                                                                 | Medium     | Stack, Design                                       | `O(1)`             | `O(n)`       |
 | 169  | [Majority Element](problems/0169-majority-element.md)                                                                                   | Easy       | Array, Hash Table                                   | `O(n)`             | `O(n)`       |
@@ -87,7 +88,7 @@ The Solved table below is generated from these files using `update_readme.py` sc
 | 705  | [Design HashSet](problems/0705-design-hashset.md)                                                                                       | Easy       | Array, HashSet, Linked List, Design                 | `O(1)`             | `O(n)`       |
 | 706  | [Design HashMap](problems/0706-design-hashmap.md)                                                                                       | Medium     | Array, HashMap, Linked List, Design                 | `O(1)`             | `O(n)`       |
 | 707  | [Design Linked List](problems/0707-design-linked-list.md)                                                                               | Medium     | Linked List, Design                                 | `O(1)`             | `O(n)`       |
-| 735  | [Asteroid Collision](problems/0735-asteroid-collision.md)                                                                               | Easy       | Array, Stack, Simulation                            | `O(n)`             | `O(n)`       |
+| 735  | [Asteroid Collision](problems/0735-asteroid-collision.md)                                                                               | Medium     | Array, Stack, Simulation                            | `O(n)`             | `O(n)`       |
 | 875  | [Koko Eating Bananas](problems/0875-koko-eating-bananas.md)                                                                             | Medium     | Array, Binary Search                                | `O(n*logm)`        | `O(1)`       |
 | 912  | [Sort an Array](problems/0912-sort-an-array.md)                                                                                         | Medium     | Array, Sorting, Merge Sort                          | `O(n*logn)`        | `O(n)`       |
 | 973  | [k Closest Points to Origin](problems/0973-k-closest-points-to-origin.md)                                                               | Medium     | Array, Heap, Quickselect                            | `O(n)`             | `O(n)`       |
